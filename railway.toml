@@ -1,0 +1,8 @@
+[deploy]
+startCommand = "./hbbs -p $PORT"
+healthcheckPath = "/"
+healthcheckTimeout = 30
+
+[build]
+builder = "dockerfile"
+dockerfile = "./Dockerfile"
